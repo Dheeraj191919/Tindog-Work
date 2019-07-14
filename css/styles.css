@@ -1,0 +1,188 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: "montserrat-bold";
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading{
+
+  font-family: "montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+ /* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+ }
+
+.white-section{
+    background-color: #fff;
+}
+/* navbar */
+.navbar{
+  padding: 0 0 2.0rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-size: 2.0rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+
+
+/* download-buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title sections */
+  #title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* .title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+
+
+/* section feattures */
+#features{
+
+  position: relative;
+}
+
+.feature-title{
+  font-size: 2.5rem;
+}
+.feature-box{
+
+  padding: 5%;
+}
+.icon{
+  margin-bottom: 1rem;
+  color: #e18172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* section testimonials */
+
+
+#testimonials{
+
+  background-color: #e18172;
+
+}
+
+.testimonial-image{
+   width: 20%;
+   border-radius: 100%;
+   padding: 10px
+ }
+
+ .testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+/* #press */
+#press{
+  background-color: #e18172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+
+/* prcicing section */
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+
+
+/* call to action */
+
+
+
+.line{
+
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "montserrat-black";
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* footer */
+#footer{
+
+  font-weight: bold;
+}
+.social-icon {
+  margin: 10px 15px ;
+}
